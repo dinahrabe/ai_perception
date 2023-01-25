@@ -6,7 +6,7 @@ This project analyzed the perception of AI in newspaper articles. The research q
 With the limited analysis at hand we can not find a strong difference in the topics that are discussed in the newspaper articles that are concerned with AI. The same finding holds for the sentiments attached to the topics, which are also mainly similar for all three countries. We find a divergence between countries for the topics of "drones" & "facial recognition" whichcome with more negative sentiments in Australia and in the US compared to the UK. We formulate the hypothesis for further research that this might be due to a potential backlash in less regulated environments (where therefore more "scandals" happen), or due to context specific discussions which differ in their details between the countries.
 
 ## Project Presentation
-To dive deeper into the project and the details of our findings a presentation is provided: **[Presentation Slides]**(https://github.com/dinahrabe/ai_perception/blob/main/Project_Presentation_AI_Perception.pdf)
+To dive deeper into the project and the details of our findings a presentation is provided: [Presentation Slides](https://github.com/dinahrabe/ai_perception/blob/main/Project_Presentation_AI_Perception.pdf)
 
 **Authors:**
 
