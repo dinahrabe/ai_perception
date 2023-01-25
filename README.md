@@ -1,21 +1,15 @@
-# Adversarial Machine Learning Tutorial <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hertie_School_of_Governance_logo.svg/1200px-Hertie_School_of_Governance_logo.svg.png" width="200px" align="right" />
+# The Perception of AI in Newspapers <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hertie_School_of_Governance_logo.svg/1200px-Hertie_School_of_Governance_logo.svg.png" width="200px" align="right" />
 
-##### GRAD-E1394 Deep Learning -- Assignment 3
+This project analyzed the perception of AI in newspaper articles. The research question that is explored is whether AI is perceived differently in different regulatory environments. Due to data availability issues as well as time constraints, the analysis focuses on the newspaper outlet The Guardian in the UK, US and Australia. The data was retrieved from the Guardian API for the years 2000-2022. A very general query was used to filter out 6813 articles broadly concerned with the topic of AI (or topics related to it). The data was analyzed with the use of Natural Language Techniques like Topic Modelling and Sentiment Analysis.
 
-This tutorial provides users with a fundamental understanding for Adversarial Machine Learning (AML), why it is dangerous, and how its risks can be mitigated. It does so by providing both mathematical and theoretical explanations as well as hands-on coding examples. Two attacks and their countermeasures are implemented, namely an evasion attack and a membership inference attack. The user will be introduced not only in the intricacies of these attacks but get an idea of their risks in general. Machine Learning systems applied in all domains can be subject to adversarial attacks, making the topic paramount to practitioners and policy-makers alike.
+## Findings
+With the limited analysis at hand we can not find a strong difference in the topics that are discussed in the newspaper articles that are concerned with AI. The same finding holds for the sentiments attached to the topics, which are also mainly similar for all three countries. We find a divergence between countries for the topics of "drones" & "facial recognition" whichcome with more negative sentiments in Australia and in the US compared to the UK. We formulate the hypothesis for further research that this might be due to a potential backlash in less regulated environments (where therefore more "scandals" happen), or due to context specific discussions which differ in their details between the countries.
 
-In addition to the tutorial itself, we also provide you with a presentation taking a more conceptual angel to introducing Adversarial Machine Learning, a video walking you through the notebook, and a link to directly open the file in Google Colab:
-
-* [Presentation Slides](https://github.com/hertie-data-science-lab/assignment-3---tutorial-adversarial-attacks/blob/30f00c61dc86d4c4a30bd54f81b741ba35ec840d/Presentation/Adversarial%20Machine%20Learning_Presentation_Deep%20Learning.pdf)
-* [Video Guide for Tutorial Notebook](https://youtu.be/3XDGxJZZ7ZA)
-* [Open Tutorial in Google Colab](https://colab.research.google.com/github/hertie-data-science-lab/assignment-3---tutorial-adversarial-attacks/blob/main/tutorial_adversarial_attacks.ipynb)
+## Project Presentation
+To dive deeper into the project and the details of our findings a presentation is provided: **[Presentation Slides]**(https://github.com/dinahrabe/ai_perception/blob/main/Project_Presentation_AI_Perception.pdf)
 
 **Authors:**
 
-*   Dinah Rabe [[Email](mailto:d.rabe@students.hertie-school.org) | [GitHub](https://github.com/dinahrabe) | [LinkedIn](https://www.linkedin.com/in/dinah-rabe-b58617146/)]
-*   Johannes Halkenhäußer [[Email](mailto:j.halkenhaeusser@students.hertie-school.org) | [GitHub](https://github.com/Halkenhaeusser) | [LinkedIn](https://www.linkedin.com/in/johanneshalkenhaeusser/)]
-*   Benedikt Ströbl [[Email](mailto:b.stroebl@students.hertie-school.org) | [GitHub](https://github.com/benediktstroebl) | [LinkedIn](https://www.linkedin.com/in/benediktstroebl/)]
-*   Victor Möslein [[Email](mailto:v.moeslein@students.hertie-school.org) | [GitHub](https://github.com/sailandcode) | [LinkedIn](https://www.linkedin.com/in/vmoeslein/)]
-
-<a href="https://colab.research.google.com/github/hertie-data-science-lab/assignment-3---tutorial-adversarial-attacks/blob/main/tutorial_adversarial_attacks.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="200px"/></a>
+*   Dinah Rabe [GitHub](https://github.com/dinahrabe)
+*   Helena Bakic [GitHub](https://github.com/aneleh-cikab) 
+*   Angela Duarte-Pardo [GitHub](https://github.com/aduarte56)
